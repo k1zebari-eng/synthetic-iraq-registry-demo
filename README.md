@@ -1,2 +1,30 @@
-# synthetic-iraq-registry-demo
-Synthetic and fictional demo data for Iraq and Kurdistan population registry - testing and development purposes only
+# Synthetic Demo Data for Iraq / Kurdistan
+
+ئەم پڕۆژەیە تەنها بۆ **تاقیکردنەوە، فێرکاری، و پڕۆژەی دێپلۆی** دەبێت.
+
+- هەموو داتاکان **synthetic / fictional** نین.
+- هیچ ناسنامەی هەڵگیراو، ژمارەی موبایل، داتای کەسیی ڕاستەوخۆ، یان داتای حوکمی نین.
+- هەموو ناوەکان و شارییەکان **بۆ نموونە** و **بە شێوەی ساختە** دروست کراون.
+
+## بۆ چی ئەم پڕۆژەیە؟
+- تاقیکردنەوەی JSON / CSV / SQLite
+- نووسینی پڕۆژە لە Python
+- هەڵگرتنی زانیاریی هەولێر، سلێمانی، دهۆک، کوردستان و عێراق
+- بۆ دەرەنجام دانی هەڵبژارد��کان
+
+## چۆن ئەم فایلانە دروست دەبن؟
+
+```bash
+python3 generate_demo_data.py
+```
+
+## فایلی دروستکراو
+
+- `demo_output/iraq_cities.json`
+- `demo_output/synthetic_registry.json`
+- `demo_output/synthetic_registry.csv`
+- `demo_output/synthetic_registry.db`
+
+## تێبینی
+
+ئەمە **نەخشییەتی داتای ڕاستەوخۆی کەسێک** نییە. زۆرجار بۆ ژمارەی تاقیکردنەوە و فێرکاری بەکاردێت.
